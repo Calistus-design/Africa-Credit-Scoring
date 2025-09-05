@@ -1,0 +1,31 @@
+
+# data file is large and doesn't need to be tracked by git
+#data/  
+
+#ignore python cache files which are created auto to speed up execution of scripts instead of recompiling 
+# python files every time you run the code
+__pycache__/
+*.pyc
+#ignore jupyter notebook checkpoints which are just backups created automatically 
+.ipynb_checkpoints/
+
+# ignore devcontainer as it a VS Code specific folder for development environments
+.devcontainer/
+
+#ignore virtual environment coz it is specific to the machine and other users should create their own 
+venv/
+
+#ignore vs code settings
+.vscode/
+
+#ignore os-specific files which stores thumbnail previews for faster folder loading
+Thumbs.ds
+.DS_Store
+
+# ignore ide specific settings
+.idea/
+
+# ignore log files
+*.log
+
+#ignore a scpecific notebook file
