@@ -7,7 +7,8 @@ The final, champion model (XGBoost) was saved as a deployment-ready artifact.
 ---
 
 ## The Business Problem: Finding the Needle in the Haystack
-<img width="792" height="437" alt="image" src="https://github.com/user-attachments/assets/d3610ae7-2d14-4f0e-9e8c-56d29bd10f0f" />
+<img width="579" height="338" alt="image" src="https://github.com/user-attachments/assets/a036d221-46c6-4952-bf19-955af3523f91" />
+
 
 The core challenge of this project lies in the **severe class imbalance** of the dataset. A staggering **98.2%** of loans were successfully paid back, while only a tiny fraction (**1.8%**) resulted in a default.
 
