@@ -7,7 +7,7 @@ The final, champion model (XGBoost) was saved as a deployment-ready artifact.
 ---
 
 ## The Business Problem: Finding the Needle in the Haystack
-![alt text](image.png)
+<img width="792" height="437" alt="image" src="https://github.com/user-attachments/assets/d3610ae7-2d14-4f0e-9e8c-56d29bd10f0f" />
 
 The core challenge of this project lies in the **severe class imbalance** of the dataset. A staggering **98.2%** of loans were successfully paid back, while only a tiny fraction (**1.8%**) resulted in a default.
 
@@ -26,14 +26,17 @@ I followed a structured, end-to-end process to move from raw data to a functiona
 
 I began with a deep dive into the data to uncover predictive patterns. The key findings were:
 
-![alt text](image-1.png)
-ustomers were found to be **over 10 times more likely to default** (a >20% default rate) compared to "Repeat Loan" customers (<2% default rate). This was the single strongest predictor in the dataset.
+<img width="792" height="437" alt="image" src="https://github.com/user-attachments/assets/a470ac16-18b6-483a-8cdb-1dd0b75ff73a" />
 
-![alt text](image-2.png)
+- New customers were found to be **over 10 times more likely to default** (a >20% default rate) compared to "Repeat Loan" customers (<2% default rate). This was the single strongest predictor in the dataset.
+
+<img width="977" height="528" alt="image" src="https://github.com/user-attachments/assets/58a73271-7976-49ab-9718-da761e2b3131" />
+
 
 - **Loan Characteristics Matter:** Certain loan_type categories (like Type_15 and Type_23) had extremely high default rates, some exceeding 70%, identifying them as high-risk products.
 
-![alt text](image-3.png)
+<img width="611" height="377" alt="image" src="https://github.com/user-attachments/assets/ba1807a9-9d14-4d58-918a-c624c9c8cec7" />
+
 
 - **Financial Behavior Signals Risk:** On average, customers who defaulted tended to take out larger loans and for longer durations than customers who paid back successfully.
     
